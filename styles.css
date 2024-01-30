@@ -1,0 +1,131 @@
+body {
+    margin: 0px 0px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(82, 238, 160);
+    border: 5px solid rgb(74, 0, 84);
+    display: flex;
+    justify-content: right;
+    font-family: 'Garamond', serif;
+}
+
+nav a {
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.heading {
+    background-color: rgb(204, 201, 253);
+    padding: 5px 20px;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: black;
+    font-weight: bold;
+}
+
+footer a:hover {
+    background-color: white;
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lightgray;
+}
+
+.content {
+    padding: 10px;
+}
+
+hr {
+    border: 3px dashed darkblue;
+}
+
+.headshot {
+    border-radius: 40%;
+}
+
+.bulldawg {
+    position: absolute;
+    top: 73px;
+    right: 20px;
+    border-radius: 5px;
+}
+
+.coding {
+    position: absolute;
+    top: 73px;
+    right: 164px;
+    border-radius: 5px;
+}
+
+.three-col {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px 272px;
+}
+
+.card {
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.card h3, dl {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.card ul {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card dl {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: rgb(106, 177, 199);
+}
+
+h3 {
+    color: blue;
+}
+
+.one-col {
+    background-color: rgb(204, 201, 253);
+    border: 3px solid black;
+    margin: 0px 500px 15px 500px;
+    text-align: right;
+    padding-right: 110px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.one-col input,textarea {
+    width: 250px;
+    margin: 10px 0px 0px 10px;
+}
+
+.one-col .submit {
+    width: 70px;
+}
